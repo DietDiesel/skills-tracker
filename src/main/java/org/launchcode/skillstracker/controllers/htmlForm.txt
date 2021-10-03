@@ -1,0 +1,26 @@
+    <div style='width=100%;'>
+        <form method=\"get\" action=\"/form\">
+            <label for='name'>Enter your name here:</label><br>
+            <input type='text' id='name' name='name'><br>
+            <label for='lang1'>Choose your favorite language:</label><br>
+            <select id='lang1' name='lang1'>
+                <option value='JavaScript'>JavaScript</option>
+                <option value='Java'>Java</option>
+                <option value='Python'>Python</option>
+                <option value='Perl'>Perl</option>
+            </select><br>
+            <select id='lang2' name='lang2'>
+                <option value='JavaScript'>JavaScript</option>
+                <option value='Java'>Java</option>
+                <option value='Python'>Python</option>
+                <option value='Perl'>Perl</option>
+            </select><br>
+            <select id='lang3' name='lang3'>
+                <option value='JavaScript'>JavaScript</option>
+                <option value='Java'>Java</option>
+                <option value='Python'>Python</option>
+                <option value='Perl'>Perl</option>
+            </select><br>
+            <input type='submit' value='Lets go!'>
+        </form>
+    </div>
